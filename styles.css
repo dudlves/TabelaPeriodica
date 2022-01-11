@@ -1,0 +1,338 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #242422;
+}
+header{
+    background-color: black;
+    margin: 15px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    border-radius: 25px;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+}
+
+aside{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+aside > div {
+    
+    border-radius: 6px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+aside > div > h3{
+    padding: 5px;
+    margin: 1px;
+    font-size: 14px;
+}
+
+main {
+    /* 1165px */
+   
+    width:  1220px;
+    background-color: black;
+    margin: 15px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(18, 63px);   /* 60 */ 
+    grid-template-rows: repeat(10, 60px);
+    padding: 30px;
+    border-radius: 25px;
+}
+
+main>div {
+    background-color:#f0f0f0;
+    border-radius: 4px;
+}
+
+main > div > h2{
+    margin:0;
+    text-align: center;
+}
+
+main > div> span{
+    font-size: 15px;
+    display: block;
+    padding: 3px;
+}
+
+main > div:nth-child(2){
+    grid-column-start: 18;
+}
+
+main > div:nth-child(5){
+    grid-column: 13;
+}
+
+main > div:nth-child(13){
+    grid-column: 13;
+}
+
+main > div:nth-child(72){
+    grid-column: 4;
+}
+
+main > div:nth-child(104){
+    grid-column: 4;
+}
+
+main > div:nth-child(57){
+    grid-column-start: 4;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(58){
+    grid-column-start: 5;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(59){
+    grid-column-start: 6;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(60){
+    grid-column-start: 7;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(61){
+    grid-column-start: 8;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(62){
+    grid-column-start: 9;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(63){
+    grid-column-start: 10;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(64){
+    grid-column-start: 11;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(65){
+    grid-column-start: 12;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(66){
+    grid-column-start: 13;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(67){
+    grid-column-start: 14;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(68){
+    grid-column-start: 15;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(69){
+    grid-column-start: 16;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(70){
+    grid-column-start: 17;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(71){
+    grid-column-start: 18;
+    grid-row-start: 9;
+}
+
+main > div:nth-child(89){
+    grid-column-start: 4;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(90){
+    grid-column-start: 5;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(91){
+    grid-column-start: 6;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(92){
+    grid-column-start: 7;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(93){
+    grid-column-start: 8;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(94){
+    grid-column-start: 9;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(95){
+    grid-column-start: 10;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(96){
+    grid-column-start: 11;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(97){
+    grid-column-start: 12;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(98){
+    grid-column-start: 13;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(99){
+    grid-column-start: 14;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(100){
+    grid-column-start: 15;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(101){
+    grid-column-start: 16;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(102){
+    grid-column-start: 17;
+    grid-row-start: 10;
+}
+
+main > div:nth-child(103){
+    grid-column-start: 18;
+    grid-row-start: 10;
+}
+
+
+.metal-alcalino{
+    background-color: #FF6767;
+}
+
+.metal-alcalino-terroso{
+    background-color: #FF9967;
+}
+
+.metal-transicao{
+    background-color: #FFF067;
+}
+
+.outros-metais{
+    background-color: #BCFF67;
+}
+
+.semimetal{
+    background-color: #67FF8D;
+}
+
+.nao-metal{
+    background-color: #7FDEE4;
+}
+
+.halogenio{
+    
+    background-color: #72AAFF;
+}
+
+.gas-nobre{
+    background-color: #B764FF;
+}
+
+.lantanideo{
+    background-color: #EE67FF;
+}
+
+.actinidio{ 
+    background-color: #FF679E;
+}
+
+
+
+#metal-alcalino{
+    background-color: #FF6767;
+}
+
+#metal-alcalino-terroso{
+    background-color: #FF9967;
+}
+
+#metal-transicao{
+    background-color: #FFF067;
+}
+
+#outros-metais{
+    background-color: #BCFF67;
+}
+
+#semimetal{
+    background-color: #67FF8D;
+}
+
+#nao-metal{
+    background-color: #7FDEE4;
+}
+
+#halogenio{
+    background-color: #72AAFF;
+}
+
+#gas-nobre{
+    background-color: #B764FF;
+}
+
+#lantanideo{
+    background-color: #EE67FF;
+}
+
+#actinidio{ 
+    background-color: #FF679E;
+}
+
+
+
+
+
+
+/* aside > ul {
+    background-color: chartreuse;
+    display: flex;
+    margin-left: 200px;
+}
+
+aside > ul > li {
+    background-color: blanchedalmond;
+    margin: 15px;
+} */ 
